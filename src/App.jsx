@@ -6,6 +6,7 @@ import Home from "./containers/Home/Home";
 
 import { Projects } from "./containers/Projects/Projects";
 import Contact from "./containers/Contact/Contact";
+import Skills from "./containers/Skills/Skills.jsx";
 
 function App() {
   const [path, setPath] = useState("");
@@ -68,7 +69,7 @@ function App() {
         />
         <div style={{ flex: 1 }} className="general">
           <Home language={language} dark={mode === "dark"} />
-        
+          <Skills/>
           <Projects language={language} />
           <Contact language={language} />
         </div>

@@ -10,10 +10,6 @@ const skills = {
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
-        title: "TypeScript",
-        logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4c/Typescript_logo_2020.svg/1200px-Typescript_logo_2020.svg.png",
-      },
-      {
         title: "CSS",
         logo:
           "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
@@ -36,7 +32,7 @@ const skills = {
       {
         title: "Tailwind",
         logo:
-          "https://pbs.twimg.com/profile_images/1278691829135876097/I4HKOLJw_400x400.png",
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/Tailwind_CSS_Logo.svg/2048px-Tailwind_CSS_Logo.svg.png",
       },
     ],
   
@@ -51,14 +47,9 @@ const skills = {
         logo:
           "https://seeklogo.com/images/N/nodejs-logo-FBE122E377-seeklogo.com.png",
       },
-      {
-        title: "GraphQL",
-        logo:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/GraphQL_Logo.svg/1200px-GraphQL_Logo.svg.png",
-      },
-      {
+           {
         title: "Sequelize",
-        logo: "https://sequelize.org/master/image/brand_logo.png",
+        logo: "https://sequelize.org/img/logo.svg",
       },
     ],
   };
