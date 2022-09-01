@@ -7,8 +7,8 @@ export default function Contact({ language }) {
   const { REACT_APP_SERVICE, REACT_APP_TEMPLATE, REACT_APP_USER } = process.env;
 
   const [form, setForm] = useState({
-    form_name: "",
-    form_email: "",
+    from_name: "",
+    from_email: "",
     message: "",
   });
 
@@ -31,18 +31,18 @@ export default function Contact({ language }) {
         }
       );
     setForm({
-      form_name: "",
-      form_email: "",
+      from_name: "",
+      from_email: "",
       message: "",
     });
   }
 
   async function handleChange(e) {
     await setForm({ ...form, [e.target.name]: e.target.value });
-    if (!isEmail(form.form_email)) {
+    if (!isEmail(form.from_email)) {
       return (document.querySelector(".sendMail").disabled = true);
     }
-    if (form.form_name.length < 3) {
+    if (form.from_name.length < 3) {
       return (document.querySelector(".sendMail").disabled = true);
     }
     if (!form.message) {
@@ -57,19 +57,19 @@ export default function Contact({ language }) {
       <form className="contact-form" onSubmit={sendEmail}>
         <input
           type="text"
-          name="form_name"
+          name="from_name"
           placeholder={strings[language].name}
           className="inputName"
           onChange={handleChange}
-          value={form.form_name}
+          value={form.from_name}
         />
         <input
           type="email"
-          name="form_email"
+          name="from_email"
           placeholder="email"
           className="email"
           onChange={handleChange}
-          value={form.form_email}
+          value={form.from_email}
         />
         <textarea
           name="message"
