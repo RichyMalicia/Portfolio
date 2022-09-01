@@ -1,6 +1,6 @@
 import React from "react";
 import { StyledSkills } from "../styled/StyledSkills";
-import skills from "./skills.js";
+import skills from "./skills";
 
 export default function Skills() {
   return (

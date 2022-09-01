@@ -17,7 +17,7 @@ const projectsList = [
       id: "weather",
       title: "Weather App",
       repo: "https://github.com/RichyMalicia/WeatherApp",
-      img: "https://imgur.com/rx5qlP5.png",
+      img: "https://i.ibb.co/gT9X7MR/weather.png",
     },
   ];
   
