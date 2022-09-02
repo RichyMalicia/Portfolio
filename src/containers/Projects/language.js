@@ -1,12 +1,12 @@
 const language = {
     ecommerce: {
       es: [
-        "Proyecto final del bootcamp Henry, el cual es un ecommerce de zapatillas 100% funcional en el que se puede hacer el recorrido completo desde la publicación de un producto hasta su compra posterior por un cliente",
-        "Las tecnologías usadas fueron: React, Apollo/GraphQL, Typescript, Express, Sequelize y PostgreSQL"
+        "Proyecto final del bootcamp Henry, el cual es un ecommerce de libros 100% funcional en el que se puede hacer el recorrido completo desde la publicación de un producto hasta su compra posterior por un cliente",
+        "Las tecnologías usadas fueron: React, Tailwind, Auth0, Express, Sequelize y PostgreSQL"
       ],
       en: [
-        "Final project of the Henry bootcamp, which is a 100% functional sneaker ecommerce in which the complete journey can be made from the publication of a product to its subsequent purchase by a client",
-        "The technologies used were: React, Apollo / GraphQL, Typescript, Express, Sequelize and PostgreSQL "
+        "Final project of the Henry bootcamp, which is a 100% functional books ecommerce in which the complete journey can be made from the publication of a product to its subsequent purchase by a client",
+        "The technologies used were: React, Tailwind, Auth0,  Express, Sequelize and PostgreSQL "
       ]
     },
     dogs: {
