@@ -10,12 +10,6 @@ const language = {
       send: "Send",
       message: "Message",
     },
-  
-    pt: {
-      name: "Nome",
-      send: "Enviar",
-      message: "Mensagem",
-    },
   };
   
   export default language;

@@ -3,7 +3,7 @@ import { StyledProjects } from "../styled/StyledProjects";
 import github from "../../utils/img/github.png";
 import arrow from "../../utils/img/arrow.png";
 import projectsList from "./projectList";
-/* import string from "./language.js"; */
+ import string from "./language.js"; 
 
 export const Projects = ({ language }) => {
   return (
@@ -23,12 +23,12 @@ export const Projects = ({ language }) => {
                   ))}
                 </div>
                 <p className="projectData">
-                  {/* {string[el.id][language].map((el, i) => (
+                {string[el.id][language].map((el, i) => (
                     <span key={el.id + language + i}>
                       {el}
                       <br />
                     </span>
-                  ))} */}
+                  ))} 
                 </p>
               </div>
 

@@ -1,6 +1,6 @@
 import React from "react";
-/* import language from "../../utils/img/language.png"; */
-/* import mode from "../../utils/img/mode.png"; */
+import langua from "../../utils/img/langua.png";
+import solyluna from "../../utils/img/solyluna.png";
 import { StyledNav } from "../Styled/StyledNav";
 
 export default function Nav({ switchMode, changeLanguage }) {
@@ -32,19 +32,19 @@ export default function Nav({ switchMode, changeLanguage }) {
         <h3>Thanks!</h3>
       </div>
       <div className="utils">
-       {/*  <img
-          src={language}
+        <img
+          src={langua}
           alt="Change Language"
           className="NavIcon"
           onClick={displayLanguages}
-        /> */}
-        {/* <img src={mode} alt="Switch Mode" id="modeIcon" onClick={switchMode} /> */}
+        /> 
+         <img src={solyluna} alt="Switch Mode" id="modeIcon" onClick={switchMode} /> 
       </div>
       <div className="languages">
         <ul>
           <li onClick={() => handleClick("en")}>English</li>
           <li onClick={() => handleClick("es")}>Español</li>
-          <li onClick={() => handleClick("pt")}>Português</li>
+          
         </ul>
       </div>
     </StyledNav>

@@ -12,13 +12,6 @@ const language = {
 		projects: 'Proyectos',
 		contact: 'Contacto',
 	},
-
-	pt: {
-		home: 'Principal',
-		skills: 'Habilidades',
-		projects: 'Projetos',
-		contact: 'Contato',
-	},
 }
 
 export default language;

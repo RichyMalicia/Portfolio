@@ -10,13 +10,14 @@ const projectsList = [
       id: "dogs",
       title: "Dogs PI",
       repo: "https://github.com/RichyMalicia/PI-Dogs",
-    /*   link: "https://pi-countries.vercel.app/", */
+      link: "https://dogs-web-six.vercel.app/", 
       img: "https://i.ibb.co/YNCkDS8/dogs.png",
     },
     {
       id: "weather",
       title: "Weather App",
       repo: "https://github.com/RichyMalicia/WeatherApp",
+      link: "https://weather-app-three-mauve.vercel.app/",
       img: "https://i.ibb.co/gT9X7MR/weather.png",
     },
   ];
