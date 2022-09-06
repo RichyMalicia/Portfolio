@@ -5,10 +5,12 @@ import linkedin from "../../utils/img/linkedin.png";
 import whatsapp from "../../utils/img/whatsapp.png"; 
 import { links } from "../../utils/links";
 import strings from "./language.js";
- import cv from "../../utils/resume/cv.pdf"
+ import es from "../../utils/resume/cv.pdf"
+ import en from "../../utils/resume/res.pdf"
+ import editada2 from "../../utils/img/editada2.jpg"
 
 export default function Home({ language, dark }) {
-  /* const resumes = { en, es, pt }; */
+  const resumes = { en, es };
 
   return (
     <StyledHome id="Home" dark={dark}>
@@ -41,8 +43,8 @@ export default function Home({ language, dark }) {
             </span>
           ))}
         </p>
-         <a href={cv} download={true} className="button">
-          CV
+         <a href={resumes[language]} download={true} className="button">
+          {strings[language].resume}
         </a> 
       </div>
 
