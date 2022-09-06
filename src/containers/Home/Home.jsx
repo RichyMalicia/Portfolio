@@ -5,9 +5,8 @@ import linkedin from "../../utils/img/linkedin.png";
 import whatsapp from "../../utils/img/whatsapp.png"; 
 import { links } from "../../utils/links";
 import strings from "./language.js";
- import es from "../../utils/resume/cv.pdf"
- import en from "../../utils/resume/res.pdf"
- import editada2 from "../../utils/img/editada2.jpg"
+ import es from "../../utils/resume/es.pdf"
+ import en from "../../utils/resume/en.pdf"
 
 export default function Home({ language, dark }) {
   const resumes = { en, es };
@@ -25,6 +24,7 @@ export default function Home({ language, dark }) {
           <img src={whatsapp} alt="whatsapp logo" className="icon" /> 
         </a>
       </div>
+      
 
       <div className="presentation">
         <h1>
