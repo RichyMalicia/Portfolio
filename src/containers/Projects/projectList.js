@@ -10,7 +10,7 @@ const projectsList = [
       id: "dogs",
       title: "Dogs PI",
       repo: "https://github.com/RichyMalicia/PI-Dogs",
-      link: "https://dogs-web-six.vercel.app/", 
+      link: "https://dogs-api-bootcamp.vercel.app/", 
       img: "https://i.ibb.co/YNCkDS8/dogs.png",
     },
     {
