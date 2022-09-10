@@ -11,7 +11,7 @@ const projectsList = [
       title: "Dogs PI",
       repo: "https://github.com/RichyMalicia/PI-Dogs",
       link: "https://dogs-api-bootcamp.vercel.app/", 
-      img: "https://i.ibb.co/YNCkDS8/dogs.png",
+      img: "https://i.ibb.co/MGp0D9B/1661895603682.jpg",
     },
     {
       id: "weather",
