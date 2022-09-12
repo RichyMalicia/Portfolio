@@ -4,7 +4,7 @@ const projectsList = [
       title: "Books Ecommerce",
       repo: "https://github.com/eknows-ecommerce/pf-front",
       link: "https://e-knows.herokuapp.com",
-      img: "https://i.ibb.co/MGp0D9B/1661895603682.jpg"
+      img: "https://i.postimg.cc/RhvnQ4jL/1661895603682.jpg"
     }, 
     {
       id: "dogs",

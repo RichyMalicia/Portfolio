@@ -33,6 +33,11 @@ export const StyledNav = styled.nav`
     img {
       height: 70%;
       cursor: pointer;
+      filter: grayscale(80%);
+      transition: filter 500ms ease;
+      &:hover {
+        filter: grayscale(0);
+      }
     }
   }
   #modeIcon {
