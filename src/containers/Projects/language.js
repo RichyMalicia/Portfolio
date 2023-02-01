@@ -9,6 +9,16 @@ const language = {
         "The technologies used were: React, Tailwind, Auth0,  Express, Sequelize and PostgreSQL "
       ]
     },
+    form: {
+      es: [
+        "Proyecto del Curso de Integración de PHP con HTML de Platzi, el cual permite a las personas el envío de mails con comentarios y/o consultas",
+        "Las tecnologías usadas fueron: XAMPP, Composer y PHPMailer"
+      ],
+      en: [
+        "Platzi's PHP with HTML Integration Course Project, which allows people to send emails with comments and/or queries",
+        "The technologies used were: XAMPP, Composer y PHPMailer"
+      ]
+    },
     dogs: {
       es: [
         "Proyecto individual realizado para el bootcamp Henry, en el cual se pueden buscar razas por su nombre y agregarle temperamentos a cada una.",

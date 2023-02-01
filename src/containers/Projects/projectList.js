@@ -14,6 +14,13 @@ const projectsList = [
       img: "https://i.ibb.co/YNCkDS8/dogs.png",
     },
     {
+      id: "form",
+      title: "Formulario PHP",
+      repo: "https://github.com/RichyMalicia/Formulario-PHP",
+      link: "https://php-html-form.000webhostapp.com/formulario-practico/index.php", 
+      img: "https://i.postimg.cc/bwr0Ryj7/formulario.jpg",
+    },
+    {
       id: "weather",
       title: "Weather App",
       repo: "https://github.com/RichyMalicia/WeatherApp",

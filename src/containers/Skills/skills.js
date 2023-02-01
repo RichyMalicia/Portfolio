@@ -10,6 +10,10 @@ const skills = {
         logo: "https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/Unofficial_JavaScript_logo_2.svg/480px-Unofficial_JavaScript_logo_2.svg.png",
       },
       {
+        title: "PHP",
+        logo: "https://cdn.pixabay.com/photo/2012/04/11/11/59/elephpant-27753_640.png",
+      },
+      {
         title: "CSS",
         logo:
           "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_1280.png",
