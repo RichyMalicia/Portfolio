@@ -11,7 +11,7 @@ const skills = {
       },
       {
         title: "PHP",
-        logo: "https://cdn.pixabay.com/photo/2012/04/11/11/59/elephpant-27753_640.png",
+        logo: "https://www.php.net/images/logos/new-php-logo.svg",
       },
       {
         title: "CSS",
