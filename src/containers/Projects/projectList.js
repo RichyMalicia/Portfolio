@@ -3,7 +3,7 @@ const projectsList = [
       id: "ecommerce",
       title: "Books Ecommerce",
       repo: "https://github.com/eknows-ecommerce/pf-front",
-      link: "https://e-knows.herokuapp.com",
+      link: "https://pf-front-green.vercel.app/",
       img: "https://i.postimg.cc/RhvnQ4jL/1661895603682.jpg"
     }, 
     {
